@@ -1,0 +1,188 @@
+/*-----------CÓDIGO CSS PADRÃO DO MENU---------------*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    color: black;
+    background: rgb(190, 185, 185);
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    /*Visualizar bordas (border: 1px solid blue;)*/
+    flex: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-box{
+    background-color: white;
+    height: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+
+.menu{
+    /*Visualizar bordas (border: 1px solid green;)*/
+    flex: 50%;
+    text-align: right;
+    padding: 0px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu a:hover{
+    border-bottom: 4px solid aliceblue;
+}
+/*-----------ENCERRAMENTO DO CÓDIGO PADRÃO DO MENU--------------*/
+.livro img{
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.livro p{
+    background: #4169e1;
+    border-radius: 10px;
+    padding: 8px 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#livros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.breve{
+    text-align: center;
+}
+/*Editando a página Nossa Equipe*/
+
+.equi h1, h2{
+    text-align: center;
+}
+
+.imgflex{
+    max-width: 100px;
+    display: block;
+    margin-left: 50px;
+}
+
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px; /*Tamanho máximo do conteiner*/
+    margin: 0 auto;/*Alinhar ao centro quando passar do tamanho do conteiner*/
+    padding: 80px;
+    
+}
+
+.equipe > div{
+    flex: 1 1 100px; /*Expansão máxima, mínima e base do flex*/
+    align-items: center;
+    margin: 20px;
+}
+
+.equipe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    border-radius: 50px; 
+}
+
+/*----INÍCIO MENU PRINCIPAL------*/
+@media (max-width: 1188px){
+    .menu{
+        display: flex;
+        background: black;
+    }
+}
+
+@media (max-width: 501px){
+    .menu{
+        display: grid;
+        text-align: left;
+    }
+}
+
+@media (max-width: 590px){
+    .livro img{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 501px){
+    .livro img{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 531px){
+    .search-box{
+        display: grid;
+    }
+}
+
+@media (max-width: 531px){
+    .search-text{
+        display: none;
+    }
+}
+
+/*----menu equipe------*/
+
+@media (max-width: 978px){
+    .equi{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 501px){
+    .equi{
+        margin-top: 250px;
+    }
+}
+
+/*----menu nossos livros------*/
+
+@media (max-width: 978px){
+    .breve{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 978px){
+    .breve{
+        margin-top: 250px;
+    }
+}

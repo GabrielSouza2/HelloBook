@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="./menu/contato.css" rel="stylesheet">
+    <link href="./menu/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/hp.jpg" type="image/x-icon">
+
+</head>
+<body><!-------------------CÓDIGO PADRÃO DO MENU------------->
+    <nav class="navbar">
+        <img  src="./img/hbsemfundo.png" alt="logo" width="90">
+        <div class="logo">
+            <a href="index.html">
+                <h1>HelloBook</h1>
+            </a>
+        </div><!--------códgo para barra de pesquisa---------------->
+        <div class="search-box">
+            <input type="text" class="search-text" placeholder="Pesquisar...">
+                <img src="./img/lupa2.png" width="30px">
+        </div>
+
+        <div class="menu">
+            <a href="quemsomos.html">Quem somos</a>
+            <a href="nossaequipe.html">Nossa equipe</a>
+            <a href="nossoslivros.html">Nossos livros</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+<!-----------CÓDIGO DO FORMULÁRIO---------------->
+ <div class="contato">
+    <h1>Contato</h1>
+        <hr><!---------Nome FORMULÁRIO-------->
+        <strong>
+            <h3>
+                <form action="" id="formulario" method="post" name="formulario">
+               <strong><label for="nome">Nome:</label></strong><br>
+                <input id="nome"
+                 type="text>"
+                 id="nome"
+                 name="nome"
+     placeholder="digite seu nome aqui..." required></h3><br>
+     <!--------------EMAIL FORMULÁRIO------------>
+     <strong><h3><label for="campo_email">Email:</label></strong><br><input id="campo_email" type="email" placeholder="digite seu email aqui..." required></h3><br>
+     <!---------------CAMPO DE MENSAGEM------------>
+     <strong><h3><label for="campo_mensagem">Mensagem:</label></strong><br><input id="campo_mensagem" type="text" placeholder="digite sua mensagem aqui..."required></h3><br><hr>
+     <!-----------jAVA SCRIPTS ENVIAR MENSAGEM---FALTA VERIFICAÇÃO DAS INFORMAÇÕES ANTES DE ENVIAR EM JAVASCRIPT--------->
+     <button type="button" onclick="validar()" id="mensagem">Enviar Mensagem</button>
+     <script src="./scriptContato/contato.js"></script>
+    </div> 
+</body>
+</html>
