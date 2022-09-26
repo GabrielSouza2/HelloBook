@@ -8,6 +8,8 @@
 <li>Foi adicionado as validações de compra em JS exbibindo uma mensagem em fomra de <strong>'Alert'</strong> informando ao cliente.</li>
 <li>Nossa logo leva para a página principal onde se encontra os livros voltados para área de programção.</li>
 <li>Todas as páginas estão responsivas utilizando <strong>flexbox, cssgrid e mediaquery.</strong></li>
+<li><a href="https://github.com/Sundaeh/ProjetoSquad">Aqui vocês podem verificar a participação de todos os integrantes do grupo e suas contribuições</a>
+<br>
 <br>
 <img src="https://user-images.githubusercontent.com/112514408/192350979-93c65c03-567b-4d79-8176-88d503fa5248.png">
 <em>Todos os direitos reservados
